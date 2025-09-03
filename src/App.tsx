@@ -1,20 +1,23 @@
 import { useState } from 'react'
 import './App.css'
-import Text from './componants/Text/text'
-import {Navbar} from './componants/Navbar/navbar'
+import Navbar from './components/navbar'
+import Squares from './components/squares'
+import Testimonials from './components/testimonials'
+import Display from './components/display'
+import Footer from './components/footer'
+
 
 function App() {
 
   return (
     <>
-    <Navbar />
-    <Text variant='h1' style={{color: 'blue', textAlign: 'center'}}>Hello World</Text>
-    <Text variant='h2' style={{color: 'red', textAlign: 'center'}}>Hello World</Text>
-    <Text variant='p' style={{color: 'green', textAlign: 'center'}}>Hello World</Text>
-    <Text variant='span' style={{color: 'purple', textAlign: 'center'}}>Hello World</Text>
-    <Text style={{color: 'orange', textAlign: 'center'}}>Hello World</Text>
+      <Navbar />
+      <Squares />
+      <Testimonials />
+      <Display />
+      <Footer />
     </>
-  )
+  );
 }
 
 export default App
