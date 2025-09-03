@@ -1,0 +1,158 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    height: 100%;   
+}
+
+body {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+  background-image: url('images/desktop/image-header.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.column {
+  flex: 1;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.image-column img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.text-column1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  width: 50%;
+}
+
+.design-photography {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.half {
+  flex: 1;
+  position: relative;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  color: hsl(167, 40%, 24%); /* dark teal for text */
+  text-align: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.text-overlay {
+  max-width: 300px;
+}
+
+.text-overlay h3 {
+  font-family: 'Fraunces', serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.text-overlay p {
+  font-family: 'Barlow', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.testimonials-section {
+  text-align: center;
+  padding: 80px 20px;
+  background-color: hsl(0, 0%, 98%);
+}
+
+.testimonials h2 {
+  font-family: 'Fraunces', serif;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+  color: hsl(210, 4%, 40%);
+  margin-bottom: 60px;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap; /* mobile-friendly */
+}
+
+.clients {
+  max-width: 300px;
+}
+
+.clients img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.clients p {
+  font-family: 'Barlow', sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: hsl(210, 4%, 40%);
+  margin-bottom: 30px;
+}
+
+.testimonial h4 {
+  font-family: 'Fraunces', serif;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.role {
+  display: block;
+  font-family: 'Barlow', sans-serif;
+  font-size: 0.85rem;
+  color: hsl(210, 4%, 60%);
+}
+
