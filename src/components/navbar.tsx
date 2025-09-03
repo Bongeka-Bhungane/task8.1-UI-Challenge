@@ -1,11 +1,44 @@
 import React from 'react'
 import Button from './button'
+import List from "./list";
+import arrowDown from '../assets/images/icon-arrow-down.svg'
 
 export default function navbar() {
   return (
-    <nav className='navbar' style={{display: 'flex-inline',  backgroundImage:'./assets/images'}}>
+    <nav
+      className="navbar"
+      style={{
+        display: "inline-block",
+        backgroundImage: "./assets/images",
+        color: "white",
+        justifyContent: "space-between",
+      }}
+    >
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          padding: "20px",
+          width: "100%",
+        }}
+      >
         <h1>sunnyside</h1>
+        <List />
         <Button />
+      </div>
+      <div style={{flexGrow: '1', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'space-between', textAlign: 'center', marginTop: '10%', margin: '90px'}}>
+        <h2>WE ARE CREATIVES</h2>
+        <img
+          src={arrowDown}
+          alt="white arrow down"
+          style={{
+            width: "4%",
+            height: "20%",
+            animation: "bounce 2s infinite",
+            cursor: "pointer",
+          }}
+        />
+      </div>
     </nav>
-  )
+  );
 }
