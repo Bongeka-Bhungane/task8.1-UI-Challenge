@@ -19,7 +19,7 @@ body,
   background-position: center;
 }
 
-.img-square {
+.square {
   width: 50%;
   height: 100%;
   background-image: url("../src/assets/images/desktop/image-transform.jpg");

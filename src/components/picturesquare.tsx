@@ -4,7 +4,7 @@ export default function picturesquare({ image }) {
   console.log(image);
   return (
     <div
-      className="img-square"
+      className="square"
       style={{
         backgroundImage: `url(${image})`,
         backgroundSize: "cover",

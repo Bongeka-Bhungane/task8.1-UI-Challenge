@@ -1,12 +1,32 @@
-import React from 'react'
+import React from "react";
 
-export default function picturetextsquare({image}) {
+export default function picturetextsquare({ image, title, description, color}) {
   return (
-    <div style={{backgroundImage: `url(${image})`}}>
-      <div>
-        <h2>hh</h2>
-        <p>ftg</p>
+    <div
+      className="square"
+      style={{
+        backgroundImage: `url(${image})`,
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "end",
+        alignItems: "center",
+        padding: '0% 7% 2%'
+      }}
+    >
+      <div
+        style={{
+          width: "100%",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          alignItems: "center",
+          marginTop: '10px',
+          color: color
+        }}
+      >
+        <h2>{title}</h2>
+        <p>{description}</p>
       </div>
     </div>
-  )
+  );
 }
