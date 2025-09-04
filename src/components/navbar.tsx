@@ -2,6 +2,8 @@ import React from 'react'
 import Button from './button'
 import List from "./list";
 import arrowDown from '../assets/images/icon-arrow-down.svg'
+import Heading from "./heading";
+import Logo from './logo';
 
 export default function navbar() {
   return (
@@ -22,12 +24,23 @@ export default function navbar() {
           width: "100%",
         }}
       >
-        <h1>sunnyside</h1>
+        <Logo variant='h3'>sunnyside</Logo>
         <List />
         <Button />
       </div>
-      <div style={{flexGrow: '1', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'space-between', textAlign: 'center', marginTop: '10%', margin: '90px'}}>
-        <h2>WE ARE CREATIVES</h2>
+      <div
+        style={{
+          flexGrow: "1",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "space-between",
+          textAlign: "center",
+          marginTop: "10%",
+          margin: "90px",
+        }}
+      >
+          <Heading variant="h2">WE ARE CREATIVES</Heading>
         <img
           src={arrowDown}
           alt="white arrow down"

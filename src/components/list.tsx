@@ -3,7 +3,7 @@ import React from 'react'
 export default function list() {
   return (
     <div>
-      <ul style={{listStyle: 'none', display: 'flex', gap: '20px'}}>
+      <ul style={{listStyle: 'none', display: 'flex', gap: '20px', marginLeft: '100%'}}>
         <li>About</li>
         <li>Services</li>
         <li>Projects</li>
