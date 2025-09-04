@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
 
 export default function list() {
   return (
     <div>
-      <ul style={{listStyle: 'none', display: 'flex', gap: '20px', marginLeft: '100%'}}>
+      <ul
+        style={{
+          listStyle: "none",
+          display: "flex",
+          flexDirection: 'row',
+          gap: "20px",
+        }}
+      >
         <li>About</li>
         <li>Services</li>
         <li>Projects</li>

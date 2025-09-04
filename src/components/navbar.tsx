@@ -24,8 +24,11 @@ export default function navbar() {
           width: "100%",
         }}
       >
-        <Logo variant='h3'>sunnyside</Logo>
-        <List />
+        <Logo variant="h3">sunnyside</Logo>
+        <div style={{ marginLeft: "50%" }}>
+          <List />
+        </div>
+
         <Button />
       </div>
       <div
@@ -40,7 +43,7 @@ export default function navbar() {
           margin: "90px",
         }}
       >
-          <Heading variant="h2">WE ARE CREATIVES</Heading>
+        <Heading variant="h2">WE ARE CREATIVES</Heading>
         <img
           src={arrowDown}
           alt="white arrow down"

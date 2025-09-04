@@ -13,8 +13,12 @@ import Testimonials from "./components/testimonials";
 import emily from "../src/assets/images/image-emily.jpg";
 import thomas from "../src/assets/images/image-thomas.jpg";
 import jennie from "./assets/images/image-jennie.jpg";
-// import Display from './components/display'
-// import Footer from './components/footer'
+import Display from './components/display'
+import cone from './assets/images/desktop/image-gallery-cone.jpg'
+import bottles from './assets/images/desktop/image-gallery-milkbottles.jpg'
+import orangehalf from './assets/images/desktop/image-gallery-orange.jpg'
+import cubes from './assets/images/desktop/image-gallery-sugarcubes.jpg'
+import Footer from './components/footer'
 
 function App() {
   return (
@@ -126,10 +130,37 @@ function App() {
           </div>
           <div></div>
         </section>
+        <section
+          style={{
+            width: "100%",
+            height: "30%",
+            display: "flex",
+            flexDirection: "row",
+          }}
+        >
+          <Display image={bottles} />
+          <Display image={orangehalf} />
+          <Display image={cone} />
+          <Display image={cubes} />
+        </section>
+        <section
+          style={{
+            width: "100%",
+            height: "20%",
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            gap: "15%",
+            alignItems: "center",
+            padding: "0% 7% 2%",
+            fontFamily: "sans-serif",
+            backgroundColor: "#93d4c6",
+            color: "#2a5d51",
+          }}
+        >
+          <Footer />
+        </section>
       </section>
-
-      {/* <Display />
-      <Footer />  */}
     </>
   );
 }
