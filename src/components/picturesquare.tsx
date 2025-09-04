@@ -1,14 +1,15 @@
-import React from 'react'
+import React from "react";
 
-export default function display( {image} ) {
+export default function picturesquare({ image }) {
+  console.log(image);
   return (
     <div
+      className="square"
       style={{
         backgroundImage: `url(${image})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
-        height: "100%",
-        width: '25%'
+        height: '100%'
       }}
     ></div>
   );
