@@ -11,7 +11,7 @@ body,
   height: 100%;
 } */
 
-.navbar{
+.navbar {
   width: 100%;
   height: 50%;
   background-image: url("../src/assets/images/desktop/image-header.jpg");
@@ -27,8 +27,22 @@ body,
   background-position: center;
 }
 
-footer a{
+a {
+  color: black;
+  text-decoration-color: yellow;
+}
+
+footer a {
   color: #2a5d51;
   padding: 10px;
 }
 
+@media only screen and (max-width: 475px) {
+  html {
+    font-size: 70%;
+  }
+
+  .navbar {
+    max-width: 100vw;
+  }
+}

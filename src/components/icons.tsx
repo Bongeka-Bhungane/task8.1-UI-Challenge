@@ -1,8 +1,8 @@
-import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaFacebook, FaTwitter, FaInstagram, FaPinterest } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer style={{gap: '20px', padding: '2%'}}>
+    <footer style={{gap: '10px', padding: '2%', display: 'flex'}}>
       <a href="#">
         <FaFacebook size={20} />
       </a>
@@ -11,6 +11,9 @@ export default function Footer() {
       </a>
       <a href="#">
         <FaInstagram size={20} />
+      </a>
+      <a href="#">
+        <FaPinterest size={20} />
       </a>
     </footer>
   );

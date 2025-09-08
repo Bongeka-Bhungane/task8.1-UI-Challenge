@@ -14,18 +14,19 @@ export default function navbar() {
         backgroundImage: "./assets/images",
         color: "white",
         justifyContent: "space-between",
+        width: "100%"
       }}
     >
       <div
         style={{
           display: "flex",
           justifyContent: "space-between",
-          padding: "20px",
+          padding: "10px",
           width: "100%",
         }}
       >
         <Logo variant="h3">sunnyside</Logo>
-        <div style={{ marginLeft: "50%" }}>
+        <div style={{ marginLeft: "10%" }}>
           <List />
         </div>
 
