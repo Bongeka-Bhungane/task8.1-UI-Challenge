@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function picturesquare({ image }) {
+export default function Picturesquare({ image }) {
   console.log(image);
   return (
     <div

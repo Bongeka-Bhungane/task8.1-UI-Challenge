@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function textsquare({ title, description, alt, font}) {
+export default function Textsquare({ title, description, alt, font}) {
   return (
     <div
       className="squares"

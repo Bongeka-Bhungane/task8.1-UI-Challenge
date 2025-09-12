@@ -1,8 +1,8 @@
 import React from "react";
 
-export default function list() {
+export default function List() {
   return (
-    <div>
+    <div className="list">
       <ul
         style={{
           listStyle: "none",

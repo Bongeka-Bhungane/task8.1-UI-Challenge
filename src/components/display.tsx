@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function display( {image} ) {
+export default function Display( {image} ) {
   return (
     <div
       style={{

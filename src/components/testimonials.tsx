@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function testimonials({ image, description, name, role}) {
+export default function Testimonials({ image, description, name, role}) {
   return (
     <div
       style={{

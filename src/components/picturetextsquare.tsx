@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function picturetextsquare({ image, title, description, color}) {
+export default function Picturetextsquare({ image, title, description, color}) {
   return (
     <div
       className="square"

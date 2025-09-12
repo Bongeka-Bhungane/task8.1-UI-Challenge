@@ -37,3 +37,35 @@ footer a {
   padding: 10px;
 }
 
+.button:hover {
+  transform: translateY(-4px);
+}
+
+.button {
+  box-shadow: 0 4px 8px rgba(73, 70, 70, 0.3);
+}
+
+.list li {
+  cursor: pointer;
+}
+
+.list li:hover {
+  transform: translateY(-4px);
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.logo:hover {
+  transform: translateY(-4px);
+}
+
+.icons a{
+  box-shadow: 0 4px 8px rgba(73, 70, 70, 0.3);
+  border-radius: 50%;
+}
+
+.icons a:hover {
+  transform: translateX(4px);
+}

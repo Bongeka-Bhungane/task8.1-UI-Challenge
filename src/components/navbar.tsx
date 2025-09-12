@@ -5,7 +5,7 @@ import arrowDown from '../assets/images/icon-arrow-down.svg'
 import Heading from "./heading";
 import Logo from './logo';
 
-export default function navbar() {
+export default function Navbar() {
   return (
     <nav
       className="navbar"
@@ -25,7 +25,9 @@ export default function navbar() {
           width: "100%",
         }}
       >
-        <Logo variant="h3">sunnyside</Logo>
+        <Logo variant="h3"
+        className= "logo"
+        >sunnyside</Logo>
         <div style={{ marginLeft: "10%" }}>
           <List />
         </div>

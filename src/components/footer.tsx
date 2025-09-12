@@ -3,7 +3,7 @@ import Logo from './logo'
 import List from "./list"
 import Icons from './icons'
 
-export default function footer() {
+export default function Footer() {
   return (
     <div
       className="footer"
@@ -18,7 +18,11 @@ export default function footer() {
         padding: "0% 7% 2%",
       }}
     >
-      <Logo variant="h3">sunnyside</Logo>
+      <Logo variant="h3" 
+      className="logo"
+      >
+        sunnyside
+      </Logo>
       <List />
       <Icons />
     </div>
