@@ -50,3 +50,6 @@ npm create vite@latest
 - npm run dev
 - npm install react-icons --save (react icons)
 ```
+
+### UI Insporation
+<img src="/src/assets/design/desktop-design.jpg" alt="UI I recreated" width="640" height="320"> 
